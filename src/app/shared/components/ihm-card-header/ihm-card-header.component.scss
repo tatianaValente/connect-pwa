@@ -17,5 +17,9 @@ mat-card-subtitle {
 }
 
 .header-image i {
-  color: mat-contrast($primary, 500);
+  color: mat-contrast($primary, $primaryHue);
+}
+
+.example-spacer {
+  flex: 1 1 auto;
 }
